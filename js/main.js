@@ -5,7 +5,7 @@ const secondRow = 'Собака друг человека';
 let counter = 0;
 let counterSecond = 0;
 
-function getRow() {
+function getRow(firstRow, secondRow) {
 
 
    for (let i = 0; i < firstRow.length; i++) {
@@ -27,6 +27,6 @@ function getRow() {
       alert(secondRow)
    }
 
-
+   return
 }
-getRow();
+getRow(firstRow, secondRow);
